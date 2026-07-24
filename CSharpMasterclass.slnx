@@ -24,5 +24,8 @@
   <Folder Name="/section-08-Inheritance/">
     <Project Path="section-08-Inheritance/Section08.csproj" />
   </Folder>
+  <Folder Name="/section-09-InterfaceAndPolymorphism/">
+    <Project Path="section-09-InterfaceAndPolymorphism/Section09.csproj" />
+  </Folder>
   <Project Path="section-06-collections/Section06.csproj" />
 </Solution>
