@@ -16,7 +16,7 @@
 - [x] **Section 6** — Collections
 - [x] **Section 7** — Error Handling
 - [x] **Section 8** — Inheritance
-- [ ] **Section 9** — Interfaces and Polymorphism
+- [x] **Section 9** — Interfaces and Polymorphism
 - [ ] **Section 10** — Structs
 - [ ] **Section 11** — Events and Delegates
 - [ ] **Section 12** — Regular Expressions
@@ -136,6 +136,19 @@
 - Multi-level inheritance (Animal → Dog → Cat)
 - Exercises: Animal/Dog override, Person/Employee constructors, multi-level override
 
+### Section 9 — Interfaces and Polymorphism
+
+- Interface syntax: `interface IName { void Method(); }`
+- Implementing interfaces with `: IInterface` on class declaration
+- Polymorphism via interface references (one interface, multiple implementations)
+- `IPayment` example: `CreditCardPayment` and `PayPalPayment` with shared `ProcessPayment()`
+- Dependency Injection patterns:
+  - Constructor Injection — service passed via constructor, stored as `readonly` field
+  - Setter Injection — service set via property
+  - Interface Injection — class implements `IDependencyInjector`, service set via method
+- Polymorphism with `IShape` array containing `Circle` and `Rectangle` (each with `GetArea()`)
+- Exercises: IVehicle/Car, IPayment polymorphism, DI patterns, IShape area calculator
+
 ---
 
 ## Projects
@@ -181,6 +194,7 @@ dotnet run --project section-01-intro
 dotnet run --project section-02-decisions
 dotnet run --project section-06-collections
 dotnet run --project section-07-ErrorHandling
+dotnet run --project section-09-InterfaceAndPolymorphism
 ```
 
 Or build everything at once:
@@ -199,7 +213,8 @@ section-04-Function-and-Methods/ # Section 4 — Functions and Methods
 section-05-OOP/                # Section 5 — Object Oriented Programming
 section-06-collections/        # Section 6 — Collections
 section-07-ErrorHandling/      # Section 7 — Error Handling
-section-08-Inheritance/        # Section 8 — Inheritance (in progress)
+section-08-Inheritance/        # Section 8 — Inheritance
+section-09-InterfaceAndPolymorphism/ # Section 9 — Interfaces and Polymorphism
 QuizApp/                       # Quiz App project (Section 5)
 sec-01-to-05-self-challenege/  # Self-challenge exercises (Sections 1-5)
 ```
