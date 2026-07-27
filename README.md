@@ -17,7 +17,7 @@
 - [x] **Section 7** — Error Handling
 - [x] **Section 8** — Inheritance
 - [x] **Section 9** — Interfaces and Polymorphism
-- [ ] **Section 10** — Structs
+- [x] **Section 10** — Structs
 - [ ] **Section 11** — Events and Delegates
 - [ ] **Section 12** — Regular Expressions
 - [ ] **Section 13** — WPF: Windows Presentation Foundation
@@ -149,6 +149,16 @@
 - Polymorphism with `IShape` array containing `Circle` and `Rectangle` (each with `GetArea()`)
 - Exercises: IVehicle/Car, IPayment polymorphism, DI patterns, IShape area calculator
 
+### Section 10 — Structs
+
+- Structs as value types (`struct` keyword) vs classes as reference types
+- Struct assignment copies the value, class assignment copies the reference
+- Structs can have constructors, fields, and methods
+- `DateTime` struct: properties, arithmetic (`EndDate - StartDate`), `.TotalDays`
+- `Math.PI`, `Math.Abs`, common math operations
+- Overlap detection logic between two `Event` structs
+- Exercises: Point struct vs class demo, Event struct with DateTime/overlap
+
 ---
 
 ## Projects
@@ -215,6 +225,7 @@ section-06-collections/        # Section 6 — Collections
 section-07-ErrorHandling/      # Section 7 — Error Handling
 section-08-Inheritance/        # Section 8 — Inheritance
 section-09-InterfaceAndPolymorphism/ # Section 9 — Interfaces and Polymorphism
+section-10-Structs/           # Section 10 — Structs
 QuizApp/                       # Quiz App project (Section 5)
 sec-01-to-05-self-challenege/  # Self-challenge exercises (Sections 1-5)
 ```
