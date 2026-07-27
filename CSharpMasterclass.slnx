@@ -27,5 +27,8 @@
   <Folder Name="/section-09-InterfaceAndPolymorphism/">
     <Project Path="section-09-InterfaceAndPolymorphism/Section09.csproj" />
   </Folder>
+  <Folder Name="/section-10-Structs/">
+    <Project Path="section-10-Structs/Section10.csproj" />
+  </Folder>
   <Project Path="section-06-collections/Section06.csproj" />
 </Solution>
